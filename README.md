@@ -30,11 +30,10 @@ The full command:
 git clone --recurse-submodules git@github.com:Massive-Wiki/massive-wiki-starter.git
 ```
 
-Or, you can clone the submodules with these commands:
+Or, if you have already cloned this repo but not the submodules, you can clone the submodules with this command:
 
 ```shell
-git submodule init
-git submodule update
+git submodule update --init --recursive
 ```
 
 See the [Submodules chapter of the Git Book](https://git-scm.com/book/en/v2/Git-Tools-Submodules) for more information about Git submodules.
